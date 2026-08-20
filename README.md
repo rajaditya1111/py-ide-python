@@ -16,14 +16,3 @@ A lightweight, cross-platform Python IDE built with Tkinter. pyIDE (python-ide) 
 - Python 3.7+
 - Node.js if you want to run `.js` files from the app
 
-
-
-When you run a file, the app determines the command based on its extension:
-
-- `.py` — runs with the `python` command
-- `.js` — runs with the `node` command (requires Node.js installed)
-- `.bat` — executed via `cmd /c` on Windows
-- `.html` — opened in the default web browser
-
-Program stdout and stderr are displayed in the output pane.
-
